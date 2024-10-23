@@ -1,0 +1,176 @@
+body{
+      overscroll-behavior: none;
+    --webkit-overflow-scrolling: touch;
+}
+
+@media(max-width:'425px'){
+  .bottom-none{
+    visibility: hidden;
+  }
+}
+
+// Comfortaa
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 600; // Assuming SemiBold is 600
+  src: url("./assets/fonts/Comfortaa-SemiBold.ttf") format("truetype");
+}
+
+// Courier Prime
+@font-face {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 700; // Bold
+  src: url("./assets/fonts/Courier Prime-Bold.ttf") format("truetype");
+}
+
+// OpenSans
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400; // Regular
+  src: url("./assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 600; // SemiBold
+  src: url("./assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 800; // ExtraBold
+  src: url("./assets/fonts/OpenSans-ExtraBold.ttf") format("truetype");
+}
+
+// PlayfairDisplay
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700; // Bold
+  src: url("./assets/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+}
+
+// Poppins
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400; // Medium
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700; // Bold
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+// Roboto
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700; // Bold
+  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+// SourceSansPro
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400; // Regular
+  src: url("./assets/fonts/SourceSansPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700; // Bold
+  src: url("./assets/fonts/SourceSansPro-Bold.otf") format("opentype");
+}
+
+// Times New Roman
+@font-face {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 400; // Medium
+  src: url("./assets/fonts/Times New Roman-Medium.ttf") format("truetype");
+}
+
+// Urbanist
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400; // Medium
+  src: url("./assets/fonts/Urbanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600; // SemiBold
+  src: url("./assets/fonts/Urbanist-SemiBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "OpenSans";
+  background-color: #f7f7f7;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  font-family: "OpenSans";
+  font-weight: 500;
+  p {
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .translationText{
+    font-size: 16px !important;
+  }
+  div{
+    padding: 5px;
+    input {
+      padding: 5px;
+    }
+  }
+  
+}
+
+.MuiInputBase-root{
+  height: '47px';
+  border-radius: '50px';
+  background: '#F9FAFB';
+  font-family: 'OpenSans';
+  font-size: '14px';
+  font-weight: 400;
+}
+
+.model-canvas{
+  width: 100%;
+  height: 80%;
+}
+
+#leva__root {
+  > * {
+   margin-top: 27rem;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .model-canvas{
+    width: 100%;
+    height: 70% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
